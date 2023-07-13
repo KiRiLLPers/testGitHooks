@@ -1,7 +1,7 @@
 const obj= {
-    "ref": "refs/heads/test-1",
-    "before": "ab2017a7df55be6f441d48e7196fe0cf305376ef",
-    "after": "f9cfb5469abe8a2b20d2eb7c27b7e511ebb3411b",
+    "ref": "refs/heads/test-2",
+    "before": "0000000000000000000000000000000000000000",
+    "after": "24ba301c6b2262e3f24913f629e2d9b04b39f2ec",
     "repository": {
         "id": 665794601,
         "node_id": "R_kgDOJ684KQ",
@@ -72,13 +72,13 @@ const obj= {
         "deployments_url": "https://api.github.com/repos/KiRiLLPers/testGitHooks/deployments",
         "created_at": 1689216863,
         "updated_at": "2023-07-13T03:05:57Z",
-        "pushed_at": 1689227409,
+        "pushed_at": 1689238056,
         "git_url": "git://github.com/KiRiLLPers/testGitHooks.git",
         "ssh_url": "git@github.com:KiRiLLPers/testGitHooks.git",
         "clone_url": "https://github.com/KiRiLLPers/testGitHooks.git",
         "svn_url": "https://github.com/KiRiLLPers/testGitHooks",
         "homepage": null,
-        "size": 2,
+        "size": 3,
         "stargazers_count": 0,
         "watchers_count": 0,
         "language": "HTML",
@@ -130,19 +130,19 @@ const obj= {
         "type": "User",
         "site_admin": false
     },
-    "created": false,
+    "created": true,
     "deleted": false,
     "forced": false,
     "base_ref": null,
-    "compare": "https://github.com/KiRiLLPers/testGitHooks/compare/ab2017a7df55...f9cfb5469abe",
+    "compare": "https://github.com/KiRiLLPers/testGitHooks/commit/24ba301c6b22",
     "commits": [
         {
-            "id": "f9cfb5469abe8a2b20d2eb7c27b7e511ebb3411b",
-            "tree_id": "535fda3407b3d9d3d9d7f7c106c38680fcd64849",
+            "id": "24ba301c6b2262e3f24913f629e2d9b04b39f2ec",
+            "tree_id": "b169a7f74d93e42c1465bd170c34a97359b0d0aa",
             "distinct": true,
-            "message": "tesetWebHooks",
-            "timestamp": "2023-07-13T12:50:03+07:00",
-            "url": "https://github.com/KiRiLLPers/testGitHooks/commit/f9cfb5469abe8a2b20d2eb7c27b7e511ebb3411b",
+            "message": "where branch name test2",
+            "timestamp": "2023-07-13T15:47:30+07:00",
+            "url": "https://github.com/KiRiLLPers/testGitHooks/commit/24ba301c6b2262e3f24913f629e2d9b04b39f2ec",
             "author": {
                 "name": "Кирилл",
                 "email": "kirill.pershin@itwis.org"
@@ -154,17 +154,17 @@ const obj= {
             "added": [],
             "removed": [],
             "modified": [
-                "index.html"
+                "index.js"
             ]
         }
     ],
     "head_commit": {
-        "id": "f9cfb5469abe8a2b20d2eb7c27b7e511ebb3411b",
-        "tree_id": "535fda3407b3d9d3d9d7f7c106c38680fcd64849",
+        "id": "24ba301c6b2262e3f24913f629e2d9b04b39f2ec",
+        "tree_id": "b169a7f74d93e42c1465bd170c34a97359b0d0aa",
         "distinct": true,
-        "message": "tesetWebHooks",
-        "timestamp": "2023-07-13T12:50:03+07:00",
-        "url": "https://github.com/KiRiLLPers/testGitHooks/commit/f9cfb5469abe8a2b20d2eb7c27b7e511ebb3411b",
+        "message": "where branch name test2",
+        "timestamp": "2023-07-13T15:47:30+07:00",
+        "url": "https://github.com/KiRiLLPers/testGitHooks/commit/24ba301c6b2262e3f24913f629e2d9b04b39f2ec",
         "author": {
             "name": "Кирилл",
             "email": "kirill.pershin@itwis.org"
@@ -176,10 +176,10 @@ const obj= {
         "added": [],
         "removed": [],
         "modified": [
-            "index.html"
+            "index.js"
         ]
     }
 }
 
-console.log(obj.commits)
+// console.log(obj.ref.split("/").slice(-1).join(""))
 console.log(obj)
