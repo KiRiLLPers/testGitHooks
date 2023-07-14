@@ -8,7 +8,6 @@ const obj= {
         "name": "testGitHooks",
         "full_name": "KiRiLLPers/testGitHooks",
         "private": false,
-            "name": "KiRiLLPers",
             "email": "89154832+KiRiLLPers@users.noreply.github.com",
             "login": "KiRiLLPers",
             "id": 89154832,
