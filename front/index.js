@@ -11,7 +11,6 @@ const obj= {
             "email": "89154832+KiRiLLPers@users.noreply.github.com",
             "id": 89154832,
             "avatar_url": "https://avatars.githubusercontent.com/u/89154832?v=4",
-            "gravatar_id": "",
             "url": "https://api.github.com/users/KiRiLLPers",
             "html_url": "https://github.com/KiRiLLPers",
             "followers_url": "https://api.github.com/users/KiRiLLPers/followers",
