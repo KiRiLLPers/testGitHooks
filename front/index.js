@@ -9,7 +9,6 @@ const obj= {
         "full_name": "KiRiLLPers/testGitHooks",
         "private": false,
             "email": "89154832+KiRiLLPers@users.noreply.github.com",
-            "login": "KiRiLLPers",
             "id": 89154832,
             "node_id": "MDQ6VXNlcjg5MTU0ODMy",
             "avatar_url": "https://avatars.githubusercontent.com/u/89154832?v=4",
